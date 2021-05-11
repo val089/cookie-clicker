@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50rem;
+  flex-wrap: wrap;
+
+  &__reset-btn {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    background: chocolate;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+  }
+}

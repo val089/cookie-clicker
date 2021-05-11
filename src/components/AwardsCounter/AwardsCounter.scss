@@ -1,0 +1,15 @@
+.awards-counter {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  &__icon {
+    color: gold;
+    font-size: 4rem
+  }
+  &__title {
+    padding-left: 2rem;
+    font-size: 5rem;
+  }
+}

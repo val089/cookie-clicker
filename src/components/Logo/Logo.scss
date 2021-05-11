@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    color: chocolate;
+    font-size: 4rem;
+  }
+
+  &__text {
+    padding-left: 1rem;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+}

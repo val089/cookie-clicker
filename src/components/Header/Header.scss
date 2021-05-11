@@ -1,0 +1,40 @@
+@import "../../scss/colors.scss";
+@import "../../scss/breakpoints.scss";
+@import "../../scss/mixins.scss";
+
+.header {
+  background: $header-bg-color;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  position: relative;
+  @include mq(tablet-large) {
+    padding: 0 4rem;
+}
+  
+  &__hamburger {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    cursor: pointer;
+    @include mq(tablet-large) {
+        display: none;
+    }
+  }
+
+  &__bar1,
+  &__bar2,
+  &__bar3 {
+      width: 3.5rem;
+      height: .4rem;
+      background-color: $main-font-color;
+      margin: .7rem 0;
+      transition: 0.4s;
+  }
+}
