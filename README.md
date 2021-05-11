@@ -1,5 +1,5 @@
 # Cookie Clicker
-Simple Cookie ClickerCreated with CodeSandbox
+Simple Cookie Clicker created with CodeSandbox.
 
 ![cookie](https://user-images.githubusercontent.com/30775271/117778592-17168380-b23e-11eb-8fdc-43c741dd9ccf.JPG)
 
